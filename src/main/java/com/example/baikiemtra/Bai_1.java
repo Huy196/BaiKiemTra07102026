@@ -1,10 +1,22 @@
 package com.example.baikiemtra;
 
 public class Bai_1 {
-    // Bước 1: Bắt đầu từ phần tử trái nhất của mảng và so sánh từng phần tử trong mảng với phần tử cần tìm
-    // Bước 2: Nếu phần tử nào trùng với phần tử cần tìm thì trả về chỉ số của phần tử đó trong mảng
-    // Bước 3: Nếu không có phần tử nào trùng thì trả về -1
-       //     •	Cài đặt thuật toán
+    /*
+     * MÃ GIẢ THUẬT TOÁN TÌM KIẾM TUYẾN TÍNH:
+     *
+     * ALGORITHM LinearSearch(a, x)
+     * BEGIN
+     *     FOR i ← 0 TO length(a) - 1 DO
+     *         IF a[i] = x THEN
+     *             RETURN i
+     *         END IF
+     *     END FOR
+     *
+     *     RETURN -1
+     * END
+     *
+
+     */
 
     static int linearSearch(int[] a, int x) {
         for (int i = 0; i < a.length; i++) {
@@ -16,7 +28,7 @@ public class Bai_1 {
 
     public static void main(String args[]) {
         int listNumber[] = { 2, 3, 4, 10, 40 };
-        int number_1 = 1;
+        int number_1 = 10;
 
         int result = linearSearch(listNumber, number_1);
         if(result == -1)
@@ -25,4 +37,3 @@ public class Bai_1 {
             System.out.print("Phần tử có mặt tại chỉ mục " + result);
     }
 }
-

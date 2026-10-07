@@ -2,18 +2,27 @@ package com.example.baikiemtra;
 
 public class Bai_3 {
 
-//     Các bước thực hiện bằng mã giả:
-//        Bước 1: Bắt đầu.
-//        Bước 2: Nhập số nguyên n cần tính giai thừa.
-//        Bước 3: Xây dựng hàm factorial(n):
-//           - Nếu n = 0 thì trả về 1.
-//           - Ngược lại, trả về n * factorial(n - 1).
-//        Bước 4: Gọi hàm factorial(n) để tính giai thừa.
-//        Bước 5: Lưu kết quả vào biến result.
-//        Bước 6: In ra kết quả n! = result.
-//        Bước 7: Kết thúc.
+    /*
+     * MÃ GIẢ THUẬT TOÁN TÍNH GIAI THỪA BẰNG ĐỆ QUY:
+     *
+     * ALGORITHM Factorial(n)
+     * BEGIN
+     *     IF n = 0 THEN
+     *         RETURN 1
+     *     END IF
+     *
+     *     RETURN n * Factorial(n - 1)
+     * END
+     *
+     * ALGORITHM Main
+     * BEGIN
+     *     Nhập số nguyên n
+     *     result ← Factorial(n)
+     *     In n! = result
+     * END
+     */
 
-    //	Cài đặt thuật toán bằng ngôn ngữ tùy chọn.
+    // Cài đặt thuật toán bằng ngôn ngữ tùy chọn.
 
     // Tính giai thừa bằng đệ quy
     static int factorial(int n) {
