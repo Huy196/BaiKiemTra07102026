@@ -14,7 +14,6 @@ public class Bai_1 {
         return -1;
     }
 
-
     public static void main(String args[]) {
         int listNumber[] = { 2, 3, 4, 10, 40 };
         int number_1 = 1;
